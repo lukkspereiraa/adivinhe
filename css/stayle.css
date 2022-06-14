@@ -1,0 +1,139 @@
+/* global ==================*/
+:root{
+    --branco: #fafafa;
+    --azaul: #08348a;
+    --azaul-lhit: #0bbbd6;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubunto', sans-serif;
+    text-decoration: none;
+   
+}
+/* header ===============*/
+header{
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.5) ;
+    background-color: var(--branco);
+}
+header a h1{
+    color: var(--azaul);
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+/* conteiner ============ */
+.conteiner{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    background: linear-gradient(to right, #ddd, #eeee, #ddd );
+}
+/* form       */
+.conteiner form{
+    background: var(--azaul-lhit);
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2rem;
+    margin-top: 5%;
+    border-radius: 0.5rem;
+}
+.conteiner form label{
+    color: var(--branco);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.conteiner form input{
+    border: 0;
+    outline: 0;
+    margin: 5% 0px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    border-radius: 0.2rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1)
+}
+.conteiner form input:focus{
+    box-shadow:inset 1px 2px 4px 2px rgba(0, 0, 0, 0.1) ;
+}
+.conteiner form button{
+    cursor: pointer;
+    padding: 0.8rem;
+    margin-top: 3%;
+    border: 0;
+    outline: 0;
+    border-radius: 0.2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background: var(--azaul);
+    color: var(--branco);
+    transform: 0.3s;
+
+}.conteiner form button:hover{
+    color: var(--azaul);
+    background: var(--branco);
+}
+/* secton ============================== */
+.conteiner .caixa-de-reusltado{
+    margin-top: 5%;
+    background: var(--branco);
+    width: 40%;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+    color: var(--azaul);
+
+}
+.conteiner .caixa-de-reusltado h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 5% 0%;
+}
+.conteiner .caixa-de-reusltado samp{
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+/* brn joagr -=----=-=-=-=-=-=-=-= */
+.conteiner #btnstart{
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: var(--branco);
+    color: var(--azaul);
+    padding: 1rem;
+    margin-top: 3%;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease-in-out;
+
+    display: none;
+}
+.conteiner #btnstart:hover{
+    background: var(--azaul);
+    color: var(--branco);
+
+}
+footer{
+    margin-top: 13px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: inset 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+    
+}
+footer p{
+    color: var(--azaul);
+    font-size: 1rem;
+    font-weight: 300;
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stayle.css">
+    <script src="js/index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <title>Adivinhe o numero</title>
+</head>
+<body>
+
+    <header>
+        <a href="#"><h1>GussNunber</h1></a>
+    </header>
+    <main class="conteiner">
+
+    
+    <form id="form">
+        <label for="kick">digite um numero(0-10)</label>
+        <input type="number" id="kick" max="10" placeholder="0" min="0">
+
+        <button type="submit">jogar</button>
+
+    </form>
+
+    <section class="caixa-de-reusltado" id="result">
+        <h2 id="status">Adivinhe o numero</h2>
+        <span id="attemp">tentativas: 0</span>
+    </section>
+    <button id="btnstart">jogar de novo
+        
+    </button>
+        <footer>
+            <p>Adivinhe o numero, 2022 &copy;</p>
+        </footer>
+</main>
+</body>
+</html>
